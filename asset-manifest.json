@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/riazmasud.github.io/riazmasud/my-react-app/static/css/main.c291014f.chunk.css",
+    "main.js": "/riazmasud.github.io/riazmasud/my-react-app/static/js/main.b84ab580.chunk.js",
+    "main.js.map": "/riazmasud.github.io/riazmasud/my-react-app/static/js/main.b84ab580.chunk.js.map",
+    "runtime-main.js": "/riazmasud.github.io/riazmasud/my-react-app/static/js/runtime-main.83dc7a2b.js",
+    "runtime-main.js.map": "/riazmasud.github.io/riazmasud/my-react-app/static/js/runtime-main.83dc7a2b.js.map",
+    "static/js/2.a384b3aa.chunk.js": "/riazmasud.github.io/riazmasud/my-react-app/static/js/2.a384b3aa.chunk.js",
+    "static/js/2.a384b3aa.chunk.js.map": "/riazmasud.github.io/riazmasud/my-react-app/static/js/2.a384b3aa.chunk.js.map",
+    "index.html": "/riazmasud.github.io/riazmasud/my-react-app/index.html",
+    "precache-manifest.ea151877cdd17ca7aea339abab2f3198.js": "/riazmasud.github.io/riazmasud/my-react-app/precache-manifest.ea151877cdd17ca7aea339abab2f3198.js",
+    "service-worker.js": "/riazmasud.github.io/riazmasud/my-react-app/service-worker.js",
+    "static/css/main.c291014f.chunk.css.map": "/riazmasud.github.io/riazmasud/my-react-app/static/css/main.c291014f.chunk.css.map",
+    "static/js/2.a384b3aa.chunk.js.LICENSE.txt": "/riazmasud.github.io/riazmasud/my-react-app/static/js/2.a384b3aa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83dc7a2b.js",
+    "static/js/2.a384b3aa.chunk.js",
+    "static/css/main.c291014f.chunk.css",
+    "static/js/main.b84ab580.chunk.js"
+  ]
+}
