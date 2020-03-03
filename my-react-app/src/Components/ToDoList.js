@@ -1,6 +1,6 @@
 import React from "react";
-import "../App.scss";
-import "../ToDoForm.scss";
+import "../styles/App.scss";
+import "../styles/ToDoForm.scss";
 import ListItems from "./ListItems";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";

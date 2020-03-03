@@ -1,0 +1,70 @@
+$myFont: Helvetica, sans-serif;
+$txtColor: #fff;
+$myFontSize: 18px;
+$myWidth: 680px;
+$borderColor: #f9e5ad;
+$bgColor: #f7e8bc70;
+
+body {
+  background-color: #3f3160;
+  color: $txtColor;
+  .App {
+    text-align: center;
+
+    @keyframes App-logo-spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .App-logo {
+      height: 40vmin;
+      pointer-events: none;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+      }
+    }
+
+    .App-header {
+      background-color: #282c34;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size: calc(10px + 2vmin);
+
+      ul {
+        list-style-type: none;
+        li {
+          float: left;
+          padding: 10px;
+          border: 1px solid white;
+          border-radius: 5px;
+          margin: 2px;
+          a {
+            color: $txtColor;
+            text-decoration: None;
+          }
+        }
+      }
+    }
+    .history-item {
+      list-style-type: none;
+      border: 1px solid $borderColor;
+      margin: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: $bgColor;
+    }
+
+    .col {
+      display: inline-block;
+      margin: 40px;
+    }
+  }
+}

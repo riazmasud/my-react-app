@@ -1,5 +1,5 @@
 import React from "react";
-import "../ListItems.scss";
+import "../styles/ListItems.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import FlipMove from "react-flip-move";
 
