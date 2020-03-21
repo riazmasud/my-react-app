@@ -10,6 +10,7 @@ import MultipleReducers from "../MultipleReducers";
 import ReduxSaga from "../ReduxSaga";
 import ParentChild from "../ParentChild";
 import ToDoList from "../ToDoList";
+import CreditCardUI from "../CreditCardUI";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHome,
@@ -87,6 +88,12 @@ class Menu extends Component {
                   To-Do List
                 </Link>
               </li>
+              <li>
+                <Link to={"/credit-card-ui"}>
+                  <FontAwesomeIcon icon={faList} color="white" />
+                  Credit Card UI
+                </Link>
+              </li>
             </ul>
           </header>
           <Switch>
@@ -108,6 +115,7 @@ class Menu extends Component {
             <Route exact path="/redux-with-saga" component={ReduxSaga} />
             <Route exact path="/parent-child" component={ParentChild} />
             <Route exact path="/to-do-list" component={ToDoList} />
+            <Route exact path="/credit-card-ui" component={CreditCardUI} />
           </Switch>
         </div>
       </Router>
